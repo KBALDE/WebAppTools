@@ -184,16 +184,16 @@ The value of the title attribute will be displayed as a tooltip when you mouse o
 ```
 
 ## HTML Headings
-HTML headings are defined with the <h1> to <h6> tags.
+HTML headings are defined with the h1 to h6 tags.
 
-<h1> defines the most important heading. <h6> defines the least important heading.
+h1 defines the most important heading. h6 defines the least important heading.
 
 ### Headings Are Important
 Search engines use the headings to index the structure and content of your web pages.
 
 Users often skim a page by its headings. It is important to use headings to show the document structure.
 
-<h1> headings should be used for main headings, followed by <h2> headings, then the less important <h3>, and so on.
+h1 headings should be used for main headings, followed by h2 headings, then the less important h3, and so on.
 
 ### Bigger Headings
 Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property:
@@ -202,9 +202,9 @@ Each HTML heading has a default size. However, you can specify the size for any 
 <h1 style="font-size:60px;">Heading 1</h1>
 ```
 ### HTML Horizontal Rules
-The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The **hr** tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
 
-The <hr> element is used to separate content (or define a change) in an HTML page:
+The **hr** element is used to separate content (or define a change) in an HTML page:
 
 ```php
 <h1>This is heading 1</h1>
@@ -216,18 +216,18 @@ The <hr> element is used to separate content (or define a change) in an HTML pag
 ```
 
 ### HTML Line Breaks
-The HTML <br> element defines a line break.
+The HTML **br** element defines a line break.
 
-Use <br> if you want a line break (a new line) without starting a new paragraph:
+Use **br**  if you want a line break (a new line) without starting a new paragraph:
 
 ```php
 <p>This is<br>a paragraph<br>with line breaks.</p>
 ```
 
 ### The HTML <pre> Element
-The HTML <pre> element defines preformatted text.
+The HTML **pre** element defines preformatted text.
 
-The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+The text inside a **pre** element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
 
 ```php
 <pre>
