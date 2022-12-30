@@ -27,13 +27,13 @@ HTML is the standard markup language for creating Web pages.
 ```
 
 ## Example Explained
-- The <!DOCTYPE html> declaration defines that this document is an HTML5 document
-- The <html> element is the root element of an HTML page
-- The <head> element contains meta information about the HTML page
-- The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
-- The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-- The <h1> element defines a large heading
-- The <p> element defines a paragraph
+- The **!DOCTYPE html** declaration defines that this document is an HTML5 document
+- The **html** element is the root element of an HTML page
+- The **head** element contains meta information about the HTML page
+- The **title** element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+- The **body** element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+- The **h1** element defines a large heading
+- The **p** element defines a paragraph
 
 ## What is an HTML Element?
 
@@ -47,7 +47,7 @@ The HTML element is everything from the start tag to the end tag:
 <p>My first paragraph.</p>
 ````
 
-**Note**: *Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!*
+**Note**: *Some HTML elements have no content (like the **br** element). These elements are called empty elements. Empty elements do not have an end tag!*
 
 
 ## Web Browsers
@@ -56,24 +56,24 @@ The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML doc
 A browser does not display the HTML tags, but uses them to determine how to display the document.
 
 ## HTML Documents
-All HTML documents must start with a document type declaration: <!DOCTYPE html>.
+All HTML documents must start with a document type declaration: **!DOCTYPE html**.
 
-The HTML document itself begins with <html> and ends with </html>.
+The HTML document itself begins with **html** and ends with **/html**.
 
-The visible part of the HTML document is between <body> and </body>.
+The visible part of the HTML document is between **body** and **/body**.
 
 ## The <!DOCTYPE> Declaration
-The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
+The **!DOCTYPE** declaration represents the document type, and helps browsers to display web pages correctly.
 
 It must only appear once, at the top of the page (before any HTML tags).
 
-The <!DOCTYPE> declaration is not case sensitive.
+The **!DOCTYPE** declaration is not case sensitive.
 
-The <!DOCTYPE> declaration for HTML5 is: ``<!DOCTYPE html>``
+The **!DOCTYPE** declaration for HTML5 is: ``<!DOCTYPE html>``
 
 
 ## HTML Links
-HTML links are defined with the <a> tag:
+HTML links are defined with the **a** tag:
 
 ````php
 <a href="https://www.w3schools.com">This is a link</a>
@@ -85,7 +85,7 @@ Attributes are used to provide additional information about HTML elements.
 You will learn more about attributes in a later chapter.
 
 ## HTML Images
-HTML images are defined with the <img> tag.
+HTML images are defined with the **img** tag.
 
 The source file (src), alternative text (alt), width, and height are provided as attributes:
 
@@ -96,14 +96,14 @@ The source file (src), alternative text (alt), width, and height are provided as
 ## Empty HTML Elements
 HTML elements with no content are called empty elements.
 
-The <br> tag defines a line break, and is an empty element without a closing tag:
+The **br** tag defines a line break, and is an empty element without a closing tag:
 
 ```php
 <p>This is a <br> paragraph with a line break.</p>
 ```
 
 ## HTML is Not Case Sensitive
-HTML tags are not case sensitive: <P> means the same as <p>.
+HTML tags are not case sensitive: **P** means the same as **p**.
 
 The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
 
@@ -114,28 +114,28 @@ Attributes are always specified in the start tag
 Attributes usually come in name/value pairs like: name="value"
 
 ### The href Attribute
-The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+The **a** tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
 
 ```php
 <a href="https://www.w3schools.com">Visit W3Schools</a>
 ```
 
 ### The src Attribute
-The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
+The **img** tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
 
 ```php
 <img src="img_girl.jpg">
 ```
 
 ### The width and height Attributes
-The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
+The **img** tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
 
 ```php
 <img src="img_girl.jpg" width="500" height="600">
 ```
 
 ### The alt Attribute
-The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
+The required alt attribute for the **img** tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
 
 ```php
 <img src="img_girl.jpg" alt="Girl with a jacket">
@@ -149,7 +149,7 @@ The style attribute is used to add styles to an element, such as color, font, si
 ```
 
 ### The lang Attribute
-You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+You should always include the lang attribute inside the **html** tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
 
 The following example specifies English as the language:
 
@@ -306,16 +306,16 @@ The CSS text-align property defines the horizontal text alignment for an HTML el
 ### HTML Formatting Elements
 Formatting elements were designed to display special types of text:
 
-<b> - Bold text
-<strong> - Important text
-<i> - Italic text
-<em> - Emphasized text
-<mark> - Marked text
-<small> - Smaller text
-<del> - Deleted text
-<ins> - Inserted text
-<sub> - Subscript text
-<sup> - Superscript text
+**b** - Bold text
+**strong** - Important text
+**i** - Italic text
+**em** - Emphasized text
+**mark** - Marked text
+**small** - Smaller text
+**del** - Deleted text
+**ins** - Inserted text
+**sub** - Subscript text
+**sup** - Superscript text
 
 Example
 ```php
@@ -324,14 +324,14 @@ Example
 
 ### HTML Quotation
 
-<blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements.
+**blockquote**,**q**, **abbr**, **address** **cite**, and **bdo** HTML elements.
 
-- The HTML <blockquote> element defines a section that is quoted from another source.
-- The HTML <q> tag defines a short quotation.
-- The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
-- The HTML <address> tag defines the contact information for the author/owner of a document or an article.
-- The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.)
-- The HTML <bdo> tag is used to override the current text direction. BDO stands for Bi-Directional Override.
+- The HTML **blockquote** element defines a section that is quoted from another source.
+- The HTML **q** tag defines a short quotation.
+- The HTML **abbr** tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+- The HTML **address** tag defines the contact information for the author/owner of a document or an article.
+- The HTML **cite** tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.)
+- The HTML **bdo** tag is used to override the current text direction. BDO stands for Bi-Directional Override.
 
 # HTML Comment Tag
 You can add comments to your HTML source by using the following syntax:
@@ -413,7 +413,7 @@ An inline CSS is used to apply a unique style to a single HTML element.
 
 An inline CSS uses the style attribute of an HTML element.
 
-The following example sets the text color of the <h1> element to blue, and the text color of the <p> element to red:
+The following example sets the text color of the **h1** element to blue, and the text color of the **p** element to red:
 
 ```php
 <h1 style="color:blue;">A Blue Heading</h1>
@@ -426,7 +426,7 @@ An internal CSS is used to define a style for a single HTML page.
 
 An internal CSS is defined in the **head** section of an HTML page, within a **style** element.
 
-The following example sets the text color of ALL the **h1** elements (on that page) to blue, and the text color of ALL the <p> elements to red. In addition, the page will be displayed with a "powderblue" background color: 
+The following example sets the text color of ALL the **h1** elements (on that page) to blue, and the text color of ALL the **p** elements to red. In addition, the page will be displayed with a "powderblue" background color: 
 ```php
 <!DOCTYPE html>
 <html>
@@ -449,7 +449,7 @@ The following example sets the text color of ALL the **h1** elements (on that pa
 ### External CSS
 An external style sheet is used to define the style for many HTML pages.
 
-To use an external style sheet, add a link to it in the <head> section of each HTML page:
+To use an external style sheet, add a link to it in the **head** section of each HTML page:
 
 ```php
 <!DOCTYPE html>
@@ -565,7 +565,7 @@ You can use any image you like as your favicon. You can also create your own fav
 
 To add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder. A common name for a favicon image is "favicon.ico".
 
-Next, add a <link> element to your "index.html" file, after the <title> element, like this:
+Next, add a **link** element to your "index.html" file, after the **title** element, like this:
 
 ```php
 <!DOCTYPE html>
@@ -605,17 +605,17 @@ HTML tables allow web developers to arrange data into rows and columns.
 </table>
 ```
 
-- Each table cell is defined by a <td> and a </td> tag. td stands for table data.
-- Each table row starts with a <tr> and ends with a </tr> tag. tr stands for table row.
-- Sometimes you want your cells to be table header cells. In those cases use the <th> tag instead of the <td> tag. th stands for table header.
+- Each table cell is defined by a **td** and a slash **td** tag. td stands for table data.
+- Each table row starts with a **tr** and ends with a **tr** tag. tr stands for table row.
+- Sometimes you want your cells to be table header cells. In those cases use the **th** tag instead of the **td** tag. th stands for table header.
 
-By default, the text in <th> elements are bold and centered, but you can change that with CSS.
+By default, the text in **th** elements are bold and centered, but you can change that with CSS.
 
 ## HTML Lists
 HTML lists allow web developers to group a set of related items in lists.
 
 ### Unordered HTML List
-An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+An unordered list starts with the **ul** tag. Each list item starts with the **li** tag.
 
 The list items will be marked with bullets (small black circles) by default:
 ```php
@@ -628,7 +628,7 @@ The list items will be marked with bullets (small black circles) by default:
 ```
 
 ### Ordered HTML List
-An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+An ordered list starts with the **ol** tag. Each list item starts with the **li** tag.
 
 The list items will be marked with numbers by default:
 
@@ -644,7 +644,7 @@ HTML also supports description lists.
 
 A description list is a list of terms, with a description of each term.
 
-The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+The **dl** tag defines the description list, the **dt** tag defines the term (name), and the **dd** tag describes each term:
 
 ```php
 <dl>
@@ -664,11 +664,11 @@ A block-level element always starts on a new line, and the browsers automaticall
 
 A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
 
-Two commonly used block elements are: <p> and <div>.
+Two commonly used block elements are: **p** and **div**.
 
-The <p> element defines a paragraph in an HTML document.
+The **p** element defines a paragraph in an HTML document.
 
-The <div> element defines a division or a section in an HTML document.
+The **div** element defines a division or a section in an HTML document.
 
 ```php
 <p>Hello World</p>
@@ -680,17 +680,17 @@ An inline element does not start on a new line.
 
 An inline element only takes up as much width as necessary.
 
-This is a <span> element inside a paragraph.
+This is a **span** element inside a paragraph.
 
 ```php
 <span>Hello World</span>
 ```
 ### The <div> Element
-The <div> element is often used as a container for other HTML elements.
+The **div** element is often used as a container for other HTML elements.
 
-The <div> element has no required attributes, but style, class and id are common.
+The **div** element has no required attributes, but style, class and id are common.
 
-When used together with CSS, the <div> element can be used to style blocks of content:
+When used together with CSS, the **div** element can be used to style blocks of content:
 ```php
 <div style="background-color:black;color:white;padding:20px;">
   <h2>London</h2>
@@ -698,11 +698,11 @@ When used together with CSS, the <div> element can be used to style blocks of co
 </div>
 ```	
 ### The <span> Element
-The <span> element is an inline container used to mark up a part of a text, or a part of a document.
+The **span** element is an inline container used to mark up a part of a text, or a part of a document.
 
-The <span> element has no required attributes, but style, class and id are common.
+The **span** element has no required attributes, but style, class and id are common.
 
-When used together with CSS, the <span> element can be used to style parts of the text:
+When used together with CSS, the **span** element can be used to style parts of the text:
 ```php
 <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
 
@@ -716,7 +716,7 @@ Multiple HTML elements can share the same class.
 Using The class Attribute
 The class attribute is often used to point to a class name in a style sheet. It can also be used by a **JavaScript** to access and manipulate elements with the specific class name.
 
-In the following example we have three <div> elements with a class attribute with the value of "city". All of the three <div> elements will be styled equally according to the .city style definition in the head section:
+In the following example we have three **div** elements with a class attribute with the value of "city". All of the three **div** elements will be styled equally according to the .city style definition in the head section:
 ```php
 <!DOCTYPE html>
 <html>
@@ -764,7 +764,7 @@ The id attribute is used to point to a specific style declaration in a style she
 
 The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
 
-In the following example we have an <h1> element that points to the id name "myHeader". This <h1> element will be styled according to the #myHeader style definition in the head section:
+In the following example we have an **h1** element that points to the id name "myHeader". This **h1** element will be styled according to the #myHeader style definition in the head section:
 
 ```php
 <!DOCTYPE html>
@@ -795,13 +795,13 @@ A class name can be used by multiple HTML elements, while an id name must only b
 ### HTML Iframes
 An HTML iframe is used to display a web page within a web page.
 
-The HTML <iframe> tag specifies an inline frame.
+The HTML **iframe** tag specifies an inline frame.
 
 An inline frame is used to embed another document within the current HTML document.
 ```php
 <iframe src="url" title="description"></iframe>
 ```
-Tip: It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the iframe is.
+Tip: It is a good practice to always include a title attribute for the **iframe**. This is used by screen readers to read out what the content of the iframe is.
 
 ### Iframe - Target for a Link
 An iframe can be used as the target frame for a link.
@@ -847,7 +847,7 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 
 ## Respinsive Web Site
 ### Setting The Viewport
-To create a responsive website, add the following <meta> tag to all your web pages:
+To create a responsive website, add the following **meta** tag to all your web pages:
 
 ```php
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -858,7 +858,7 @@ And For images to be Responsive
 <img src="img_girl.jpg" style="width:100%;">
 ```
 ## HTML <code> For Computer Code
-The HTML <code> element  is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.
+The HTML **code** element  is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.
 
 ```php
 <pre>
@@ -870,7 +870,7 @@ z = x + y;
 </pre>
 ```
 ### HTML <var> For Variables
-The HTML <var> element  is used to define a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.
+The HTML **var** element  is used to define a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.
 ```php
 <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
 ```
@@ -892,6 +892,6 @@ OR
 ## The HTML charset Attribute
 To display an HTML page correctly, a web browser must know the character set used in the page.
 
-This is specified in the <meta> tag:
+This is specified in the **meta** tag:
 
 ```<meta charset="UTF-8">```
